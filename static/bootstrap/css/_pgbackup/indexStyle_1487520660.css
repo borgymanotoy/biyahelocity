@@ -1,0 +1,9 @@
+.searchEnginePosition{
+  position: absolute;
+  top: 18%;
+  left: 8%;
+  z-index: 1;
+}
+.carousel .item{
+  direction: rtl;
+}
