@@ -1,0 +1,15 @@
+.searchEnginePosition{
+  position: absolute;
+  top: 25.5%;
+  left: 8%;
+  z-index: 1;
+}
+.carousel .item{
+  direction: rtl;
+}
+iframe{
+	height: 360px;
+}
+.noresize{
+	resize: none;
+}

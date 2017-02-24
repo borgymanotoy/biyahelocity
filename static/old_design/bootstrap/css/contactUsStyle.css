@@ -1,0 +1,30 @@
+h2.getInTouch{
+	color: #93d9fb;
+}
+.custom-container{
+	padding-top: 100px;
+}
+header{
+	background: url(../img/header-bg.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+#jqueryform-9ad6e3{
+	background   : rgba(255, 255, 255, 0.85);
+	padding      : 8px 8px;
+	border-radius: 8px;
+}
+#jqueryform-9ad6e3 .bg-info{
+	background: rgba(255, 255, 255, 0.91);
+}
+#jqueryform-9ad6e3 .has-error .help-block{
+	font-weight: bold;
+	color      : #f14643;
+}
+#jqueryform-9ad6e3 .bg-warning{
+	background: #f5c5cc;
+}
+#jqueryform-9ad6e3 .has-error .form-control,#jqueryform-9ad6e3 .has-error .input-group-addon{
+	border    : 2px solid #f5bbbb;
+	box-shadow: none;
+}

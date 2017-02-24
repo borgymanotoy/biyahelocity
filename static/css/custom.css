@@ -1,0 +1,80 @@
+/* Put your custom styles here */
+#frame1{
+	height       : 317px;
+	width        : 252px;
+	border-radius: 5px;
+	position     : relative;
+	top          : 50px;
+	left         : 30%;
+}
+@media (max-device-width: 480px) and (orientation: landscape){
+	#frame1{
+		position: relative;
+		left    : 20%;
+	}
+}
+@media (max-device-width: 480px) and (orientation: portrait){
+	#frame1{
+		position: relative;
+		left    : 7%;
+	}
+}
+
+/* Custom Menu */
+#header-2 .main-nav.navbar{
+	box-shadow      : 0 5px 4px -7px #000;
+	background-color: rgba(244, 244, 244, 0.93);
+	border-color    : #EAEAEA;
+}
+#header-2 .navbar-fixed-bottom,#header-2 .navbar-fixed-top{
+	height: 90px;
+}
+#header-2 .brand-img{
+	max-width: 200px;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+ul.navbar-rightnav.navbar-nav{
+	margin-top: 0;
+	background: #19aaed;
+}
+.navbar-nav > li.active a {
+    border-bottom: 2px solid #3498db;
+}
+@media (max-device-width: 480px) and (orientation: landscape){
+	#navbar-collapse .navbar-nav > li.active a{
+		border: none;
+	}
+	#header-2 .main-nav.navbar{
+		background-color: rgba(255, 254, 254, 0.79);
+	}
+	#navbar-collapse{
+		background: rgba(255, 254, 254, 0.79);
+		margin-top: 17px;
+	}
+}
+@media (max-device-width: 480px) and (orientation: portrait){
+	#navbar-collapse .navbar-nav > li.active a{
+		border: none;
+	}
+	#header-2 .main-nav.navbar{
+		background-color: rgba(255, 254, 254, 0.79);
+	}
+	#navbar-collapse{
+		background: rgba(255, 254, 254, 0.79);
+		margin-top: 17px;
+	}
+}
+
+/* About Us */
+p.par-aboutUs{
+	color: #98b1ac;
+}
+
+/* Contact Us */
+#comments{
+	resize: none;
+}
+#contact .form-control:hover{
+	border: 2px solid #1abc9c;
+}

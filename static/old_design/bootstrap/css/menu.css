@@ -1,0 +1,64 @@
+#menuContainer {
+	position: fixed;
+	z-index: 20;
+	box-shadow: 0 5px 4px -7px #000;
+}
+#menuContainer .contactMenu{
+	float: left;
+	width: 100%;
+	background: rgba(255, 255, 255, 0.89);
+}
+#menuContainer .contactMenu>div.container>div{
+	float: right;
+}
+.menusec{
+	background: #fff;
+	float: left;
+	padding-top: 10px;
+	height: 70px;
+	position: relative;
+	width: 100%;
+}
+@media (max-device-width: 480px) and (orientation: landscape){
+	#menuContainer ul.navbar-nav>li.active>a{
+		border: none;
+	}
+}
+@media (max-device-width: 480px) and (orientation: portrait){}
+	#menuContainer ul.navbar-nav>li.active>a{
+		border: none;
+	}
+}
+#menuContainer .navbar-custom{
+	background: rgba(255, 255, 255, 0.94);
+	border    : none;
+}
+#menuContainer .navbar-brand>img{
+	position: relative;
+	top     : -100%;
+	max-width: 190px;
+}
+#menuContainer.navbar-wrapper{
+	margin-top: 0;
+}
+#menuContainer .navbar-toggle .icon-bar{
+	background: #626262;
+}
+#menuContainer .nav.navbar-nav.navbar-right{
+	background: #fff;
+}
+#menuContainer .navbar-nav>li{
+	background: transparent;
+}
+#menuContainer .navbar-nav>li>a{
+	text-transform: uppercase;
+	color: #898989;
+}
+#menuContainer .navbar-nav>li>a:hover,#menuContainer .navbar-nav>li>a:focus{
+	background: none;
+	color: #009abc;
+}
+#menuContainer .navbar-nav>li.active>a{
+	border-top: 2px solid #009abc;
+	color: #009abc;
+}
