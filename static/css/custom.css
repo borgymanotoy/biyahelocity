@@ -65,6 +65,15 @@ ul.navbar-rightnav.navbar-nav{
 		margin-top: 17px;
 	}
 }
+@media screen and (max-width: 767px) {
+	#header-2 .main-nav.navbar{
+		background-color: rgba(255, 254, 254, 0.79);
+	}
+	#navbar-collapse{
+		background: rgba(255, 254, 254, 0.79);
+		margin-top: 17px;
+	}
+}
 
 /* About Us */
 p.par-aboutUs{
